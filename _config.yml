@@ -1,0 +1,11 @@
+title: 'Greg Thole'
+description: >
+  Greg's writings about all things code and devops that he discovers in his
+  professional and personal life.
+url: 'https://greg.litbt.net'
+linkedin_username: 'gthole'
+github_username: 'gthole'
+twitter_username: 'gs_thole'
+
+exclude:
+  - 'docker-compose.yml'

@@ -1,0 +1,15 @@
+version: '2'
+services:
+    avahi:
+        image: 'enernoclabs/avahi:latest'
+        logging:
+            driver: 'none'
+        network_mode: 'host'
+    app:
+        image: 'jekyll/jekyll'
+        command: 'jekyll serve --livereload --force_polling'
+        ports:
+            - '4000:4000'
+            - '35729:35729'
+        volumes:
+            - './:/srv/jekyll'

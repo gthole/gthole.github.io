@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+    {% include head.html %}
+
+    <body>
+        <div class="page-content">
+            <div class="wrapper flex">
+                <div class="col">
+                    {% include sidebar.html %}
+                </div>
+                <div class="double-col">
+                    {{ content }}
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
