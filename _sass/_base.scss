@@ -231,7 +231,7 @@ pre {
             white-space: nowrap;
         }
         li:after {
-            content: " ";
+            content: "  ";
         }
         li:last-child:after {
             content: none;
@@ -283,8 +283,8 @@ pre {
 
     > svg {
         display: inline-block;
-        width: 28px;
-        height: 28px;
+        width: 24px;
+        height: 24px;
         vertical-align: middle;
 
         path {

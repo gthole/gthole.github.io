@@ -66,10 +66,10 @@ I'd much rather write a YAML file.
 ### DevOps Configurations as Code
 
 Even better, since this is all set up with Github and AWS, Terraform can manage
-the configurations for Codebuild and the Github webhooks.  For that docker
-based project.  Drop a `buildspec.yml` file into your project, then create
-a Terraform manifest file to create and manage the Codebuild project and webhooks
-from Github.  The following example is for a Github Enterprise setup:
+the configurations for Codebuild and the Github webhooks. Drop a `buildspec.yml`
+file into your project, then create a Terraform manifest file to create and
+manage the Codebuild project and webhooks from Github.  The following example
+is for a Github Enterprise setup, with a docker based workflow:
 
 
 ```
