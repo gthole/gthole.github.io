@@ -4,6 +4,8 @@ title:  "Some Limitations of AWS Lambda"
 date:   2016-08-10 16:15:42 -0400
 categories: aws lambda
 ---
+**Update 5/18: Many of these gripes aren't really applicable anymore.**
+
 I've been working with AWS Lambda for a couple months now, porting Enernoc's
 data ingestion architecture to a serverless-style stack.  I love the simplicity
 and flexibility of Lambdas and automating the deployment.  Management through

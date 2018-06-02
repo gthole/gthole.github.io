@@ -136,7 +136,7 @@ resource "aws_api_gateway_deployment" "v1" {
 }
 ```
 **NOTE**: If you're just scanning this article for code, the above is speculative
-and will not work.  Take a look at this [gist]() instead.
+and will not work.
 
 I'd also like to see the API Gateway Lambda upload support `$ref` references
 to common status code responses and more recent Swagger V2 support.  Also worth

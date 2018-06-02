@@ -143,3 +143,7 @@ But really, serverless DevOps is pretty great!  Instead of paying for an
 always-on Jenkins instance (that you have to love and care for all the time),
 provision a CodeBuild project, and pay for it by usage, with everything tracked
 in git.
+
+Is it better than CircleCI?  Maybe, maybe not.  But for teams who work in
+dedicated AWS shops, it sure is better than managing a bunch of Jenkins
+instances.
