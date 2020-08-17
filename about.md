@@ -43,4 +43,4 @@ Arrows](https://en.wikipedia.org/wiki/Slings_%26_Arrows), and biking to work.
 I double-majored in English Lit and Mathematics in college, and went on to get
 an MA in math.
 
-This site is built with Jekyll and many of its design elements are stolen from [Matthias Endler](https://matthias-endler.de/).
+This site is built with Jekyll and many of its design elements are stolen from [Matthias Endler](https://endler.dev).
